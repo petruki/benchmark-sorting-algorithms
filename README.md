@@ -24,7 +24,7 @@ BenchmarkRunner.testInsertionSort             |100000  |avgt    |    1092,882   
 BenchmarkRunner.testQuickSort                 |100000  |avgt    |       8,049        | ms/op
 BenchmarkRunner.testRadixSort                 |100000  |avgt    |       5,932        | ms/op
 
-### Runing
+### Running
 
 Do not use the embedded Maven from your IDE
 
