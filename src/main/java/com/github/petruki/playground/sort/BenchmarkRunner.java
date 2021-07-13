@@ -19,6 +19,7 @@ import com.github.petruki.playground.sort.algorithms.TestBubbleSort;
 import com.github.petruki.playground.sort.algorithms.TestInsertionSort;
 import com.github.petruki.playground.sort.algorithms.TestQuickSort;
 import com.github.petruki.playground.sort.algorithms.TestRadixSort;
+import com.github.petruki.playground.sort.algorithms.TestSelectionSort;
 
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
@@ -35,6 +36,11 @@ public class BenchmarkRunner {
 	@Benchmark
     public void testInsertionSort(ExecutionPlan plan) {
 		TestInsertionSort.sort(plan);
+    }
+	
+	@Benchmark
+    public void testSelectionSort(ExecutionPlan plan) {
+		TestSelectionSort.sort(plan);
     }
 	
 	@Benchmark

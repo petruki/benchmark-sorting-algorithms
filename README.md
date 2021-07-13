@@ -17,12 +17,13 @@ Benchmark testing 6 sorting algorithms.
 
 Benchmark     | (iterations) | Mode | Score | Units
 :-------------|:-------------|:-----|:------|:-------
-BenchmarkRunner.testArraysParallelSort        |100000  |avgt    |       1,737        | ms/op
-BenchmarkRunner.testArraysQuickDualPivotSort  |100000  |avgt    |       6,884        | ms/op
-BenchmarkRunner.testBubbleSort                |100000  |avgt    |   17844,336        | ms/op
-BenchmarkRunner.testInsertionSort             |100000  |avgt    |    1092,882        | ms/op
-BenchmarkRunner.testQuickSort                 |100000  |avgt    |       8,049        | ms/op
-BenchmarkRunner.testRadixSort                 |100000  |avgt    |       5,932        | ms/op
+BenchmarkRunner.testBubbleSort  				| 100000  |avgt       |21357,747	|ms/op
+BenchmarkRunner.testInsertionSort  				| 100000  |avgt       |1183,553     |ms/op
+BenchmarkRunner.testSelectionSort  				| 100000  |avgt       |7946,768		|ms/op
+BenchmarkRunner.testQuickSort  					| 100000  |avgt       |9,330		|ms/op
+BenchmarkRunner.testRadixSort  					| 100000  |avgt       |6,559		|ms/op
+BenchmarkRunner.testArraysQuickDualPivotSort  	| 100000  |avgt       |8,159		|ms/op
+BenchmarkRunner.testArraysParallelSort  		| 100000  |avgt       |1,927		|ms/op
 
 ### Running
 
